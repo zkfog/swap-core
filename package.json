@@ -1,0 +1,33 @@
+{
+  "name": "@zkfog/swap-core",
+  "version": "1.0.0",
+  "description": "🎛 Core contracts for the Shade protocol",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.ts --network nexus",
+    "hash": "hardhat run scripts/hash.ts --network nexus"
+  },
+  "keywords": [
+    "shade",
+    "nexus",
+    "shadeswap"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "author": "",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@types/node": "^22.13.8",
+    "dotenv": "^16.4.7",
+    "hardhat": "^2.22.19",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@uniswap/lib": "^4.0.1-alpha",
+    "@uniswap/v2-core": "^1.0.1"
+  },
+  "license": "GPL-3.0-or-later"
+}
